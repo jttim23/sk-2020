@@ -13,17 +13,14 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
  * Adresy poszczególnych sieci IP
  * Adresację linków pomiędzy routerami
  * Tablice routingów na poszczególnych routerach
-  | Siec   | Adres sieci | Host min     | Host max      | Adres rozgłoszeniowy |
+
+| Siec   | Adres sieci | Host min     | Host max      | Adres rozgłoszeniowy |
 | -------------     |:-------------: | -----:       | -----:        | -----:    |
 |   LAN1       | 149.156.208.0 | 192.168.208.1   | 192.168.211.255 | 192.168.211.255  |
 |   LAN2     | 149.156.212.0 |   192.168.212.1  | 192.168.215.255 | 192.168.215.255 |
 |   LAN3   | 149.156.216.0 | 192.168.216.1 | 192.168.219.255| 192.168.219.255 |
 
-| Siec   | Adres sieci | Host min     | Host max      | Adres rozgłoszeniowy |
-| -------------     |:-------------: | -----:       | -----:        | -----:    |
-|   LAN1       | 149.156.208.0 | 192.168.0.1   | 192.168.3.254 | 192.168.3.255  |
-|   LAN2     | 192.168.4.0 |   192.168.4.1  | 192.168.7.254 | 192.168.7.255 |
-|   LAN3   | 192.168.8.0 | 192.168.8.1 | 192.168.11.254 | 192.168.11.255 |
+
  
  ![zadanie 1](zad6.1.png)
 
