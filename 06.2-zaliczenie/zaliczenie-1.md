@@ -22,6 +22,6 @@ Organizacja planuje rozpoczęcie działalności w 3 budynkach, w każdym z nich 
 
 
  
- ![zadanie 1](zad6.1.png)
+ ![zadanie 1](zad6.png)
 
  
