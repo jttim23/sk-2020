@@ -48,13 +48,17 @@ brama NAT - iptables
  * ![zadanie 2](dns_conf.PNG)
  ##### 4. Konfiguracja interfejsów sieciowych
   * maszyna komp i druk interfejs eth0 ustawiony na automat i dhcp
-  *  ![zadanie 3](serv_interf.PNG)
+  * Interf1  
+  ![zadanie 3](serv_interf.PNG)
     
-  *  ![zadanie 4]serv_ip.PNG)
+  * Interf2  
+  ![zadanie 4]serv_ip.PNG)
     
-  *  ![zadanie 5]komp_ip.PNG)
+  *   Interf3  
+  ![zadanie 5]komp_ip.PNG)
     
-  *  ![zadanie 6]druk_ip.PNG)
-    5. Inne jeżeli wykorzystane
+   * Interf4
+  ![zadanie 6]druk_ip.PNG)
+   * 5. Inne jeżeli wykorzystane
     
 
