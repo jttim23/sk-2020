@@ -39,22 +39,22 @@ serwer DNS - dnsmasq
 brama NAT - iptables
  
  * Kluczowa konfiguracja oprogramowania pozwalająca na odtworzenie stanu po reinstalacji środowiska
-    1. Konfiguracja NAT z iptables 
+ #####   1. Konfiguracja NAT z iptables 
    
- * komenda: iptables -t nat -A POSTROUTING -o eth0 -j MASQERADE
-    2. Konfiguracja DHCP
-    ![zadanie 1](serv_dhcpconf.PNG)
-    3. Konfiguracja DNS
-    ![zadanie 2](dns_conf.PNG)
-    4. Konfiguracja interfejsów sieciowych
-    maszyna komp i druk interfejs eth0 ustawiony na automat i dhcp
-    ![zadanie 3](serv_interf.PNG)
+ *komenda: iptables -t nat -A POSTROUTING -o eth0 -j MASQERADE
+  #####  2. Konfiguracja DHCP
+*    ![zadanie 1](serv_dhcpconf.PNG)
+ ##### 3. Konfiguracja DNS
+ * ![zadanie 2](dns_conf.PNG)
+ ##### 4. Konfiguracja interfejsów sieciowych
+  * maszyna komp i druk interfejs eth0 ustawiony na automat i dhcp
+  *  ![zadanie 3](serv_interf.PNG)
     
-    ![zadanie 4]serv_ip.PNG)
+  *  ![zadanie 4]serv_ip.PNG)
     
-    ![zadanie 5]komp_ip.PNG)
+  *  ![zadanie 5]komp_ip.PNG)
     
-    ![zadanie 6]druk_ip.PNG)
+  *  ![zadanie 6]druk_ip.PNG)
     5. Inne jeżeli wykorzystane
     
 
