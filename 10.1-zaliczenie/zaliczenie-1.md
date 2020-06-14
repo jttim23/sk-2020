@@ -24,12 +24,33 @@ W sieci pracują komputery biurowe oraz urządzenia siecowe współdzielące zas
 ## Zawartość dokumentacji
 
  * Charakterystyka rozwiazania 
+   użyto: server DHCP z funkcją routingu(oprogramowanie alpine dhcp) o adresie 192.168.100.1/22 . Przydziela on adresy zgodnie z pulą wymaganą w specyfikacji.
+   Drukarka (maszyna wirtualna stały ip .200/22)
  * Adresy sieci IP
+192.168.100.0- adres sieci 
+255.255.252.0 -NETMASK
+192.168.100.1 -host min
+192.168.103.254 -host max
+liczba hostów do zaadresowania 1022
+COUNT
  * Oprogramowanie wykorzystane do realizacji poszczególnych wymagań
+ serwer DHCP - dhcpd
+serwer DNS - dnsmasq
+brama NAT - iptables
+ 
  * Kluczowa konfiguracja oprogramowania pozwalająca na odtworzenie stanu po reinstalacji środowiska
     1. Konfiguracja NAT z iptables 
+    komenda: iptables -t nat -A POSTROUTING -o eth0 -j MASQERADE
     2. Konfiguracja DHCP
+    ![zadanie 1](serv_dhcpconf.PNG)
     3. Konfiguracja DNS
+    ![zadanie 2](dns_conf.PNG)
     4. Konfiguracja interfejsów sieciowych
+    maszyna komp i druk interfejs eth0 ustawiony na automat i dhcp
+    ![zadanie 3](serv_interf.PNG)
+    ![zadanie 1]serv_ip.PNG)
+    ![zadanie 1]komp_ip.PNG)
+    ![zadanie 1]druk_ip.PNG)
     5. Inne jeżeli wykorzystane
+    
 
