@@ -52,13 +52,13 @@ brama NAT - iptables
   ![zadanie 3](serv_interf.PNG)
     
   * Interf2  
-  ![zadanie 4]serv_ip.PNG)
+  ![zadanie 4](serv_ip.PNG)
     
   *   Interf3  
-  ![zadanie 5]komp_ip.PNG)
+  ![zadanie 5](komp_ip.PNG)
     
    * Interf4
-  ![zadanie 6]druk_ip.PNG)
+  ![zadanie 6](druk_ip.PNG)
    * 5. Inne jeżeli wykorzystane
     
 
